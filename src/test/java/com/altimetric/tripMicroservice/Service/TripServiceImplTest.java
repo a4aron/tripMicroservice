@@ -18,8 +18,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 
-@RunWith(SpringRunner.class)
-class TripServiceImplTest {
+
+public class TripServiceImplTest {
 
     @InjectMocks
     TripServiceImpl tripService;
@@ -54,7 +54,6 @@ class TripServiceImplTest {
         when(hotelService.cheapestHotel(any())).thenReturn(hotel);
 
         assertNotNull(tripService.findCheaptestTrip(input));
-
 
     }
 }

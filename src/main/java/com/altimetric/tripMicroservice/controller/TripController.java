@@ -16,7 +16,6 @@ import java.util.HashMap;
 @RestController
 @RequestMapping(value = "api/v1", produces = MediaType.APPLICATION_JSON_VALUE)
 public class TripController {
-
     @Autowired
     private TripService tripService;
 
