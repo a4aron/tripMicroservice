@@ -5,7 +5,7 @@ public class Hotel {
     private String line;
     private String city;
     private double price;
-    private String Amenities;
+    private String Amenities; // for comfort option
 
     public String getName() {
         return name;

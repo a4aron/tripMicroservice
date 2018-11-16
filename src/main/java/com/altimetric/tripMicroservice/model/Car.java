@@ -5,7 +5,7 @@ public class Car {
     private String company;
     private double amount;
     private String city;
-    private String type;
+    private String type; // for comfort option
 
     public String getUrl() {
         return url;
